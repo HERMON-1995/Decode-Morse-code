@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 MORSE_CODE = {
   '.-' => 'A',
   '-...' => 'B',
@@ -44,7 +42,7 @@ def decode_char(morse_char)
 end
 
 def decode_word(morse_word)
-  morse_word.split(' ').map { |morse_char| decode_char(morse_char) }.join('')
+  morse_word.split.map { |morse_char| decode_char(morse_char) }.join
 end
 
 def decode(morse_message)
@@ -52,4 +50,4 @@ def decode(morse_message)
 end
 
 puts decode('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
-# output: A BOX FULL OF RUBIES \n
+# output: A BOX FULL OF RUBIES
