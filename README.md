@@ -27,7 +27,7 @@
 
 # 📖 [Decode Morse code] <a name="about-project"></a>
 
-**[Decode Morse code]** Is interpreting Morse code to letters then to messeges.
+**[Decode Morse code]** involves the conversion of Morse code signals into corresponding letters(numbers)and ultimately forming meaningful messages.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -85,13 +85,7 @@ Install this project with:
 
 To run the project, execute the following command:
 
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
+- [N/A]
 
 ### Run tests
 
@@ -105,13 +99,7 @@ To run tests, run the following command:
 
 You can deploy this project using:
 
-<!--
-Example:
-
-```sh
-
-```
- -->
+- [N/A]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -143,7 +131,7 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Add different structure]**
+- [ ] **[Decode different codes]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
